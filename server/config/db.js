@@ -7,7 +7,7 @@ const host = process.env.DB_HOST;
 const database = process.env.DB_NAME;
 const user = process.env.DB_USER;
 const password = process.env.DB_PASSWORD;
-console.log(port);
+console.log(host);
 
 export const connection = mysql.createConnection({
 	host,
@@ -15,7 +15,7 @@ export const connection = mysql.createConnection({
 	database,
 	user,
 	password,
-	socketPath: "/Applications/MAMP/tmp/mysql/mysql.sock",
+	// socketPath: "/Applications/MAMP/tmp/mysql/mysql.sock",
 });
 
 connection.connect((error) => {

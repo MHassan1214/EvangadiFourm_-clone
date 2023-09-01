@@ -1,0 +1,16 @@
+URL: mysql://root:ks2fhMfP5ixMovCtctsk@containers-us-west-116.railway.app:5473/railway
+db: railway
+host: containers-us-west-116.railway.app
+password: ks2fhMfP5ixMovCtctsk
+port:: 5473
+user: root
+
+
+
+
+
+DB_HOST=localhos
+DB_PORT=8888
+DB_USER=Evangadi
+DB_PASSWORD=1234
+DB_NAME=Evangadi
