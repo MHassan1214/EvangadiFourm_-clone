@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-    baseURL: "https://vast-plum-scallop-slip.cyclic.app",
+    baseURL: "https://odd-cyan-mite-cuff.cyclic.app",
     withCredentials: true,
 })
 
