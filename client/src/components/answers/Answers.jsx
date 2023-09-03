@@ -1,5 +1,6 @@
 import React from 'react';
 import './answers.css';
+import moment from 'moment'
 
 const Answer = ({answer,userName,profile,answered_date}) => {
     return (
@@ -18,7 +19,8 @@ const Answer = ({answer,userName,profile,answered_date}) => {
                     <h6 className="pt-2 pt-md-0">
                        {answer}
             </h6>
-            <time>{answered_date}</time>
+            <p>{moment (answered_date).format("HH:mm:ss MM/DD/YYYY")}</p>
+            {/* <time>{answered_date}</time> */}
                 </div>
             </div>
         </div>

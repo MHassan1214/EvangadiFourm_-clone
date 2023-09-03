@@ -27,14 +27,16 @@ return (
         <h4>Welcome</h4>
       </div>
       <h3>Questions</h3>
+      <br/>
       <div>
+
       {allQuestions.map((question) => (
           <div key={question.question_id}>
             <Link
               to={`/SingleQuestion/${question.question_id}`}
               className="text-decoration-none text-reset"
            >
-            <p>{question.question}</p>
+            <h5 className='link-hoverorange'>{question.question}</h5>
             <hr />
           
               
